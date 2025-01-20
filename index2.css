@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.aqua-rectangle {
+  margin: 10px;
+  width: 200px;
+  height: 100px;
+  background-color: aqua;
+  position: absolute;
+}
+.orange-rectangle {
+  width: 200px;
+  height: 100px;
+  background-color: orangered;
+  position: absolute;
+  top: 60px;
+  left: 60px;
+  box-shadow: -1px -1px 5px;
+}
