@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.navbar {
+  margin-top: 10px;
+  margin-left: 10px;
+  background-color: aqua;
+}
+.para1 {
+  padding: 10px;
+}
+main {
+  margin-left: 10px;
+  background-color: lightgray;
+  height: 1500px;
+}
+header {
+  position: sticky;
+  top: 0px;
+}
