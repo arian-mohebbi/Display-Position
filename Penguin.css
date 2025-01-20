@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: lightblue;
+}
+.parent {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -75px;
+  margin-top: -77.5px;
+}
+.body {
+  width: 120px;
+  height: 150px;
+  background-color: #292929;
+  border-top-left-radius: 55%;
+  border-top-right-radius: 55%;
+  border-bottom-right-radius: 40%;
+  border-bottom-left-radius: 40%;
+
+  position: relative;
+}
+.abdom {
+  background-color: #ffffff;
+  width: 45px;
+  height: 115px;
+  position: absolute;
+  bottom: 15px;
+}
+.a-left {
+  left: 15px;
+  border-bottom-left-radius: 35px;
+  border-top-left-radius: 60%;
+  border-top-right-radius: 10px;
+}
+.a-right {
+  right: 15px;
+  border-bottom-right-radius: 35px;
+  border-top-right-radius: 60%;
+  border-top-left-radius: 10px;
+}
+.eye {
+  width: 10px;
+  height: 10px;
+  background-color: black;
+  border-radius: 100%;
+  position: absolute;
+  top: 50px;
+}
+.e-left {
+  left: 35px;
+}
+.e-right {
+  right: 35px;
+}
+.color {
+  width: 4px;
+  height: 4px;
+  background-color: white;
+  border-radius: 100%;
+  position: absolute;
+  top: 51.5px;
+}
+.lc {
+  left: 36.5px;
+}
+.rc {
+  right: 38px;
+}
+.lop {
+  width: 8px;
+  height: 5px;
+  border-radius: 100%;
+  background-color: pink;
+  position: absolute;
+  top: 60px;
+}
+.l-left {
+  left: 30px;
+}
+.l-right {
+  right: 30px;
+}
+.nose {
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-bottom: 10px solid orange;
+  border-radius: 100%;
+  position: absolute;
+  left: 52px;
+  top: 56px;
+}
+.hand {
+  width: 30px;
+  height: 40px;
+  background-color: #292929;
+  position: absolute;
+  top: 60px;
+}
+.l-hand {
+  border-top-left-radius: 100%;
+  border-bottom-right-radius: 100%;
+  border-bottom-left-radius: 20%;
+  border-top-right-radius: 20%;
+  left: -15px;
+}
+.r-hand {
+  border-top-right-radius: 100%;
+  border-bottom-left-radius: 100%;
+  border-bottom-right-radius: 20%;
+  border-top-left-radius: 20%;
+  right: -15px;
+}
+.leg {
+  width: 30px;
+  height: 20px;
+  background-color: orange;
+  position: absolute;
+  border-radius: 100%;
+  bottom: -5px;
+  z-index: -1;
+}
+.l-leg {
+  left: 10px;
+}
+.r-leg {
+  right: 10px;
+}
