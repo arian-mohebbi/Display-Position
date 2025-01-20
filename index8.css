@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 0;
+}
+.parent {
+  border: 3px solid #caf0f0;
+  width: 506px;
+  height: 506px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -253px;
+  margin-left: -253px;
+}
+.parent div {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+}
+.black {
+  background-color: black;
+}
+.gray {
+  background-color: lightgrey;
+}
