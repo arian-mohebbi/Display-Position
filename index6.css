@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #000647;
+}
+
+.moon {
+  position: relative;
+  top: 220.5px;
+  left: 588px;
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  background-color: #fff38a;
+}
+.del {
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  background-color: #000647;
+  z-index: 1;
+  position: absolute;
+  top: -20px;
+  left: -20px;
+}
