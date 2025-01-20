@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+p {
+  position: absolute;
+  background-color: aqua;
+  width: 200px;
+  height: 100px;
+  text-align: center;
+  line-height: 100px;
+  top: 50%;
+  left: 50%;
+  margin-top: -50px;
+  margin-left: -100px;
+}
